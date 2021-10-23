@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+
+.btn-blue {
+    @apply rounded-lg shadow-lg text-white bg-blue-400 px-3 py-2 mr-auto ml-auto inline-block  
+}
+
+.btn-blue:hover {
+    @apply bg-pink-400
+}
+
+.btn-blue:focus {
+   @apply outline-none
+}
+
+.btn-blue:active{
+   @apply bg-indigo-600
+}
+
+
+@tailwind utilities;

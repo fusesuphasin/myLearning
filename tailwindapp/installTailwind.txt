@@ -1,0 +1,38 @@
+https://medium.com/the-existing/try-tailwindcss-with-react-550b0e31f274
+
+npm init -yes
+
+ติดตั้ง postcss-cli tailwind css และ autoprefixer
+    npm install tailwindcss postcss-cli autoprefixer 
+
+ติดตั้ง tailwind css ที่โปรเจกต์ของเรา
+    npm install tailwindcss
+
+config file
+    npx tailwindcss init --full
+    or
+    npx tailwindcss init
+
+yarn add -D postcss@latest
+
+add config
+    "build" : "postcss css/tailwind.css -o public/build/tailwind.css"
+    npm run build
+
+npm install -g live-server
+    run -> live-server public
+
+tailwind.css
+    "watch" : "postcss css/tailwind.css -o public/build/tailwind.css --watch"
+    npm run watch
+
+npm install @fullhuman/postcss-purgecss
+
+ติดตั้ง redux
+
+yarn add react react-redux
+yarn add -D redux-devtools-extension
+yarn add eslint-plugin-react-hooks --dev
+npm install eslint-plugin-react-hooks --save-dev
+
+yarn add redux-trunk
